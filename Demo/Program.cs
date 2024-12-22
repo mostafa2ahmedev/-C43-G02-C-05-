@@ -180,6 +180,38 @@ namespace Demo
             //}
 
             #endregion
+            #region Q23) Write a program in C# Sharp to find maximum and minimum element in an array
+            //int ArrayLength;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter the array length : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ArrayLength);
+            //}
+            //while (ArrayLength == 0 || !parsed);
+
+            //int[] ar = new int[ArrayLength];
+
+            //for (int i = 0; i < ArrayLength; i++)
+            //{
+            //    Console.Write($"Enter the {i + 1} Element : ");
+
+            //    int.TryParse(Console.ReadLine(), out ar[i]);
+
+            //}
+            //int max = ar[0];
+            //int min = ar[0];
+            //for (int j = 0; j < ArrayLength; j++)
+            //{
+            //    if (ar[j] < min)
+            //        min = ar[j];
+            //    if (ar[j] > max)
+            //        max = ar[j];
+            //}
+            //Console.WriteLine($"min is {min} & max is {max}");
+
+            #endregion
+
 
 
 
