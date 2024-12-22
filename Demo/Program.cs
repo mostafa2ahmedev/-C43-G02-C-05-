@@ -143,8 +143,46 @@ namespace Demo
 
             #endregion
 
+            #region Q22) Write a program in C# Sharp to count the frequency of each element of an array.
+            //int ArrayLength;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter the array length ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ArrayLength);
+            //}
+            //while (ArrayLength <= 0 || !parsed);
 
- 
+            //int[] arr = new int[ArrayLength];
+
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    Console.Write($"Enter an integer values please for the First Array element No {i + 1}  : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (parsed)
+            //        i++;
+            //}
+            //int counter;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    counter = 1;
+            //    for (int j = 0; j < arr.Length; j++)
+            //    {
+            //        if (i == j)
+            //            continue;
+            //        if (arr[i] == arr[j]) {
+            //            counter++;
+            //        }
+
+
+            //    }
+            //    Console.WriteLine($"This Element {{{arr[i]}}} repeated {counter} time ");   
+            //}
+
+            #endregion
+
+
+
 
         }
     }
