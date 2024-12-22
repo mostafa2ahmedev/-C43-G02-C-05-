@@ -261,7 +261,7 @@ namespace Demo
             //for (int i = 0; i < number; i++)
             //{
             //    Console.Write($"Enter the array elements No {i + 1}");
-     
+
             //     int.TryParse(Console.ReadLine(),out arr[i]);
             //}
 
@@ -285,8 +285,25 @@ namespace Demo
             //Console.WriteLine($"The longest distance is: {maxDistance}");
             #endregion
 
+            #region Q26) Given a list of space separated words, reverse the order of the words.
+            //string input;
+            //do
+            //{
+            //    Console.WriteLine("Enter a sentence: ");
+            //    input = Console.ReadLine();
+            //}
+            //while (string.IsNullOrEmpty(input));
 
-           
+            //string reversed = string.Join(" ", input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Reverse());
+
+            //Console.Write("Reversed Sentence: ");
+            //Console.Write(reversed);
+
+            #endregion
+
+
+
+
 
         }
     }
