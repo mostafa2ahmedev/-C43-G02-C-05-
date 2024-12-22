@@ -399,6 +399,25 @@ namespace Demo
             //Console.WriteLine($"B :  {B}");
             #endregion
 
+            #region Q2) Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+            //int Number;
+            //do
+            //{
+            //    Console.Write("Enter a number : ");
+            //    int.TryParse(Console.ReadLine(), out Number);
+            //}
+            //while (Number==0);
+            //int mod;
+            //int result = 0;
+            //while (Number > 0) {
+            //    mod = Number % 10;
+            //    Number /= 10;
+            //    result += mod;
+            //}
+            //Console.WriteLine($"result is : {result}");
+
+            #endregion
+
 
 
 
