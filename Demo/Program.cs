@@ -250,9 +250,43 @@ namespace Demo
 
             #endregion
 
+            #region Q25)Consider an Array of Integer values with size N, having values as in this Example
+            //Console.Write("Enter the size of the array: ");
+            //int number;
+            //int.TryParse(Console.ReadLine(), out number);
+
+            //int[] arr = new int[number];
 
 
+            //for (int i = 0; i < number; i++)
+            //{
+            //    Console.Write($"Enter the array elements No {i + 1}");
+     
+            //     int.TryParse(Console.ReadLine(),out arr[i]);
+            //}
 
+            //int maxDistance = 0;
+
+            //for (int i = 0; i < number; i++)
+            //{
+            //    for (int j = number - 1; j > i; j--)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            if ((j - i) > maxDistance)
+            //            {
+            //                maxDistance = (j - i);
+            //            }
+            //            break; 
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine($"The longest distance is: {maxDistance}");
+            #endregion
+
+
+           
 
         }
     }
