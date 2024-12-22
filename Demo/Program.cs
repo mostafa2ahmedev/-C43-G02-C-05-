@@ -376,6 +376,28 @@ namespace Demo
 
             #endregion
 
+            /*Functions*/
+
+
+            #region Q1) Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
+            /** passing by value for value type parameters
+             * {when we pass by value for the value type parameter
+             * only the data is copied to the parameters  and these parameters acts as a new parameters inside the function}
+             * passing by reference for value type parameters
+             * the actual place is copies to the parameters so the parameters using the actual address of the variables that passed
+             * so if there is new change happened to the parameters it will reflected directly to the actual variables */
+
+            //Passing value types parameters by value
+            //int A = 10, B = 20;
+            //SwapByValue(A, B);
+            //Console.WriteLine($"A :  {A}");
+            //Console.WriteLine($"B :  {B}");
+            //Console.WriteLine("-------");
+            ////Passing value types parameters by ref
+            //SwapByRef(ref A, ref B);
+            //Console.WriteLine($"A :  {A}");
+            //Console.WriteLine($"B :  {B}");
+            #endregion
 
 
 
