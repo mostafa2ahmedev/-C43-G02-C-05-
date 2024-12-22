@@ -35,7 +35,36 @@ namespace Demo
 
             #endregion
 
+            #region Q20)Write a program in C# Sharp to find the sum of all elements of the array.
+            //int ArrayLength;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter the array length ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ArrayLength);
+            //}
+            //while (ArrayLength <= 0 || !parsed);
 
+            //int[] ar = new int[ArrayLength];
+            //// loop for getting the values from the user
+            //for (int i = 0; i < ar.Length; i++)
+            //{
+            //    Console.Write($"Enter the {i + 1} Element : ");
+
+            //    int.TryParse(Console.ReadLine(), out ar[i]);
+
+            //}
+
+            //int result = 0;
+            //// loop for getting the sum of the elements
+            //for (int i = 0; i < ar.Length; i++)
+            //{
+            //    result += ar[i];
+            //}
+            //Console.WriteLine($"The sum is : {result}");
+            #endregion
+
+            
         }
     }
 }
