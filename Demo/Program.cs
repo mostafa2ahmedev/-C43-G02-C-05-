@@ -347,6 +347,38 @@ namespace Demo
             //}
 
             #endregion
+            #region Q28) Write a Program to Print One Dimensional Array in Reverse Order
+            //int ArrayLength;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter the array length : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ArrayLength);
+            //}
+            //while (ArrayLength == 0 || !parsed);
+
+            //int[] ar = new int[ArrayLength];
+
+
+            //for (int i = 0; i < ar.Length;)
+            //{
+            //    Console.Write($"Enter an integer values please for the First Array element No {i + 1}  : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ar[i]);
+            //    if (parsed)
+            //        i++;
+            //}
+            //// Loop for printing the array in reversed order
+            //for (int i = ar.Length-1; i>=0; i--)
+            //{
+            //    Console.Write($"{ar[i]} ");   
+            //}
+
+
+            #endregion
+
+
+
+
 
 
 
