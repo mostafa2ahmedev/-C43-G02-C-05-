@@ -484,6 +484,26 @@ namespace Demo
 
             #endregion
 
+            #region Q5) Create a function named "ChangeChar" to modify a letter in a certain position(0 based) of a string, replacing it with a different letter.
+            //StringBuilder str = new StringBuilder("Hello");
+            //Console.WriteLine(str);
+            //int index;
+            //bool indexParsed;
+            //bool charParsed;
+            //char newchar;
+            //do
+            //{
+            //    Console.WriteLine($"Enter an index within a valid range between 0 and {str.Length - 1}");
+            //    indexParsed = int.TryParse(Console.ReadLine(), out index);
+            //    Console.WriteLine("Enter a new charactar");
+            //    charParsed = char.TryParse(Console.ReadLine(), out newchar);
+            //}
+            //while (index >= str.Length || index < 0 || !indexParsed || !charParsed);
+            //ChangeChar(index, newchar, ref str);
+            //Console.WriteLine(str);
+            #endregion
+
+
 
 
 
