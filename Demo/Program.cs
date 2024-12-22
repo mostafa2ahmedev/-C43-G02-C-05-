@@ -301,7 +301,52 @@ namespace Demo
 
             #endregion
 
+            #region Q27) Write a program to create two multidimensional arrays of same size.Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.
+            //int ArrayLength;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter the array length : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ArrayLength);
+            //}
+            //while (ArrayLength == 0 || !parsed);
+            //int[,] fArr = new int[ArrayLength, ArrayLength];
 
+            //for (int i = 0; i < fArr.GetLength(0); i++)
+            //{
+            //    for (int j = 0;  j < fArr.GetLength(1);  )
+            //    {
+            //        Console.Write($"Enter the value of the element of {i+1} and {j+1} : ");
+            //        parsed= int.TryParse(Console.ReadLine(), out fArr[i, j]);
+            //        if (parsed)
+            //            j++;
+            //    }
+
+            //}
+
+            //int[,] sArr = new int[ArrayLength, ArrayLength];
+            //// copy data to the second array
+            //for (int i = 0; i < sArr.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < sArr.GetLength(1);j++)
+            //    {
+            //        sArr[i, j] = fArr[i, j];
+
+            //    }
+
+            //}
+            //// print the second array
+            //for (int i = 0; i < sArr.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < sArr.GetLength(1); j++)
+            //    {
+            //        Console.Write(sArr[i,j]);
+
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
 
 
 
