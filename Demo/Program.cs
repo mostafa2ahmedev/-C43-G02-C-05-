@@ -213,6 +213,44 @@ namespace Demo
             #endregion
 
 
+            #region Q24) Write a program in C# Sharp to find the second largest element in an array.
+
+            //int ArrayLength;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter the array length : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ArrayLength);
+            //}
+            //while (ArrayLength == 0 || !parsed);
+
+            //int[] ar = new int[ArrayLength];
+
+            //for (int i = 0; i < ar.Length;)
+            //{
+            //    Console.Write($"Enter an integer values please for the First Array element No {i + 1}  : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out ar[i]);
+            //    if (parsed)
+            //        i++;
+            //}
+
+            //int max = ar[0];
+            //int sMax = 0;
+            //for (int j = 0; j < ArrayLength; j++)
+            //{
+
+            //    if (ar[j] > max)
+            //    {
+            //        sMax = max;
+            //        max = ar[j];
+            //    }
+
+            //}
+            //Console.WriteLine($"Second largest maximum is {sMax} & max is {max}");
+
+            #endregion
+
+
 
 
 
