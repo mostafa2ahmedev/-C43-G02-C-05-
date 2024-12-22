@@ -453,7 +453,36 @@ namespace Demo
             #endregion
 
 
+            #region Q4) Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+            //int Number;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter a number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out Number);
+            //}
+            //while (!parsed);
 
+
+            //int result = 1;
+            //if (Number == 1 || Number == 0)
+            //    Console.WriteLine($"Factorial is {result}");
+            //else
+            //    for (int i = Number; i > 0; i--)
+            //    {
+            //        if (i == 1)
+            //            Console.Write($"{i} = ");
+            //        else
+            //        {
+            //            Console.Write($"{i} * ");
+
+            //        }
+            //        result *= i;
+
+            //    }
+            //Console.WriteLine(result);
+
+            #endregion
 
 
 
